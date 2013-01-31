@@ -19,11 +19,11 @@ And then execute:
 
 Include lightbox script for example, in `application.js.coffee`
 
-  #= require lightbox
+    #= require lightbox
 
 
 Include lightbox styles for example, in `application.css.scss`
 
-  //= require lightbox
+    //= require lightbox
 
 Use lightbox by it's instructions — http://lokeshdhakar.com/projects/lightbox2/
