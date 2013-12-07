@@ -47,8 +47,8 @@ $ = jQuery
 
 class LightboxOptions
   constructor: ->
-    @fileLoadingImage = '/assets/lightbox/loading.gif'
-    @fileCloseImage = '/assets/lightbox/close.png'
+    @fileLoadingImage = "<%= asset_path('lightbox/loading.gif') %>"
+    @fileCloseImage = "<%= asset_path('lightbox/close.png') %>"
     @resizeDuration = 700
     @fadeDuration = 500
     @labelImage = "Image" # Change to localize to non-english language
