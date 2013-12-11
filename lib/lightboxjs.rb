@@ -5,6 +5,8 @@ module LightboxJs
         app.config.assets.precompile += %w( lightbox.js )
         app.config.assets.precompile += %w( lightbox/loading.gif )
         app.config.assets.precompile += %w( lightbox/close.png )
+        app.config.assets.precompile += %w( lightbox/next.png )
+        app.config.assets.precompile += %w( lightbox/prev.png )
       end
     end
   end
